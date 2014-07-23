@@ -1,0 +1,22 @@
+// import the CSS framework
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*===================================*/
+/* Css for pages which of devise view */
+.sign-up{
+  padding-top: 50px;
+	h2{
+    font-size: 20px;
+    &.title{
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  .form-sign{
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 4px;
+    padding: 20px 40px 30px;
+  }
+}
